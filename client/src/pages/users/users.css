@@ -1,0 +1,24 @@
+.main__container {
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+}
+
+.user__card {
+  background-color: white;
+  gap: 2.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  margin: 8px;
+  padding: 6px;
+  text-align: center;
+}
+
+.edit_user_button {
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.edit_user_button Link {
+  text-decoration: none;
+}

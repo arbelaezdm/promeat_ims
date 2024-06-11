@@ -1,0 +1,41 @@
+.home__container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: aquamarine;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.home__container h1 {
+  margin: 0 20px;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.login__container input {
+  margin-bottom: 10px;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.login__button, .singup__button {
+width: 100%;
+font-size: 14px;
+padding: 0.6em;
+margin-bottom: 10px;
+}
+
+.errors{
+  color: red;
+  padding: 8px 0;
+}
